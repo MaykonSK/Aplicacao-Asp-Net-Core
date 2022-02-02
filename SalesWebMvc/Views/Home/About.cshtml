@@ -1,0 +1,11 @@
+﻿@{
+    //aqui pode colocar codigo c#
+    //mas não é uma boa prática
+    int valor = 20;
+    ViewData["Title"] = "About"+valor;
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+<br/>
+<h4>Seja bem vindo, @ViewData["Aluno"]!</h4>
+<p>E-mail: @ViewData["email"]</p> <!--chamando view do controller-->
